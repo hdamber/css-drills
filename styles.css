@@ -1,1 +1,7 @@
-#container
+#container {
+    font-family: 'Baskervville', serif;
+}
+
+body {
+    background-color: lightgray;
+}
