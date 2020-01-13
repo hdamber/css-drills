@@ -1,7 +1,125 @@
-#container {
+.container {
     font-family: 'Baskervville', serif;
 }
 
 body {
     background-color: lightgray;
+    display: block;
+}
+
+h2, p, .readme-wrapper {
+    text-align: center;
+    
+}
+
+.readme-wrapper {
+    color: black;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: purple;
+    text-decoration: none;
+}
+
+.boxes {
+    border: 3px solid black;
+    margin: 0;
+    width: 30em;
+    height: 15em;
+    border-radius: 10px;
+    display: block;
+}
+
+#box1 {
+    background-color: lightseagreen;
+
+}
+
+#box2 {
+    background-color: lightpink;
+    
+}
+
+#box3 {
+    background-color:lightsteelblue;
+
+}
+
+#box4 {
+    background-color: lightsalmon
+}
+
+
+a:hover {
+    background-color: white;
+    font-weight: bold;
+    
+}
+
+
+.bluefont {
+    color: blue;
+    font-family:serif;
+
+}
+
+.img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: white;
+    position: relative;
+    left: 65px;
+    top: 35px;
+}
+
+h1 {
+    color: black;
+}
+
+.original {
+    color: blueviolet;
+}
+
+.additional {
+    color: darkslateblue;
+
+}
+
+#rank1 {
+    color: darkslateblue;
+}
+
+#rank2 {
+    color: slateblue;
+}
+
+#rank3 {
+    color: blueviolet;
+}
+
+#rank4 {
+    color: violet;
+}
+
+#rank5 {
+    color: palevioletred;
+}
+
+.test {
+    color: palevioletred;
+}
+
+.star {
+    color: slateblue
+}
+.wars {
+    color: blueviolet
+}
+
+ul {
+    border: 2px solid black;
+
 }
